@@ -1,7 +1,7 @@
 {
-  "name": "redis-db-helper",
+  "name": "ioredis-helper",
   "version": "0.1.0",
-  "description": "redis db helper",
+  "description": "ioredis helper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

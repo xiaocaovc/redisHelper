@@ -8,7 +8,7 @@ const defaultOptions = {
 	db:0
 };
 var REDIS = function (options) {
-	options = _.assign({}, defaultOptions, options | {});
+	options = _.merge({}, defaultOptions, options);
 	this.redis = new Redis(options);
 	var that = this;
 	this.redis.use = function () { // support koa & koa2
